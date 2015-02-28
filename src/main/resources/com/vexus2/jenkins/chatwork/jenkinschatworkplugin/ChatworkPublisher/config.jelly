@@ -11,6 +11,17 @@
         <f:textbox/>
     </f:entry>
     <f:entry
+            title="User Info"
+            field="userInfo">
+        <f:textarea/>
+    </f:entry>
+    <f:entry
+            title="Symbol Task"
+            field="symbolTask"
+            description="ここに設定した文字がコメントされた場合、Taskになります">
+        <f:textbox/>
+    </f:entry>
+    <f:entry
             title="Default message"
             field="defaultMessage">
         <f:textarea/>
